@@ -248,10 +248,50 @@ header{
 .social-link ul li a:hover i::before{
     background: #393939;
     transform: rotate(360deg);
-
 }
 .h3{
     margin: relative;
+}
+/* =================== */
+/* Skill drction */
+/* =================== */
+.skill-section{
+    color: #3c4761;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)) ,url("img/skill-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.skill-section h2,
+.skill-section h3{
+    color: #3c4761;
+}
+.skill-section h2::after{
+    background: #dfe8ed;
+}
+.skill-section .box{
+    margin-top: 4.5rem;
+}
+svg.radial-progress circle{
+    stroke-width: 5;
+}
+
+svg.web-design circle{
+    stroke: #30bae7;
+}
+
+svg.html-css circle{
+    stroke: #d74680;
+}
+
+svg.gc-design circle{
+    stroke: #15c7a8;
+}
+
+svg.ui-ux circle{
+    stroke: #eb7d4b;
 }
 
 
