@@ -38,7 +38,7 @@ h1{
 ==============================*/
 
 .row{
-    max-width: 90rem;
+    max-width: 114rem;
     margin: 0 auto;
 }
 section{
@@ -68,6 +68,7 @@ h3{
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: 600;
+    color: #fff;
 }
 .box{
     padding: 0 2%;
@@ -76,6 +77,7 @@ h3{
     font-size: 1.6rem;
     font-weight: 300;
     margin-top: 2rem;
+    color: #fff;
 }
 
 /* Button  */
@@ -185,5 +187,74 @@ header{
     margin-top: 4.5rem;
     margin-bottom: 3.5rem;
 }
+/*============================
+===== Team Section =====
+==============================*/
+.team-section{
+    background: linear-gradient(rgba(231,241,248,0.9),rgba(231,241,248,0.9)),url(img/team-bg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-position: cover cover;
+    background-attachment: fixed;
+}
+.team-section h2{
+    color: #3c4761;
+    margin: auto;
+}
+.team-section h2::after{
+    color:#c8d9e5;
+}
+.team-member{
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.team-section h3{
+    color:#27283d;  
+}
+.role{
+    color: #30bae7;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-top: .5rem;
+}
+.team-section .box p{
+    color: #3c4761;
+}
+.social-link{
+    margin-top: 4.5rem;
+}
+.social-link ul li{
+    display:inline-block;
+    margin: 0 .5rem;
+}
+.social-link ul li a:link{
+    color: #fff;
+}
+.social-link ul li a:link i::before{
+    background: #bdd1df;
+    height: 2rem;
+    width: 2rem;
+    display:inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .5s;
+}
+.social-link ul li a:hover i::before{
+    background: #393939;
+    transform: rotate(360deg);
+
+}
+.h3{
+    margin: relative;
+}
+
+
+
 
 
