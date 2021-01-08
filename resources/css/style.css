@@ -300,7 +300,7 @@ svg.ui-ux circle{
 /*Portfolio section*/
 /* =================== */
 .portfolio-section{
-    background: linear-gradient(rgba(255, 221, 153, 0.8),rgba(255, 221, 153, 0.8)),url("/resources/css/img/portfolio-bg.jpg");
+    background: linear-gradient(rgba(255, 221, 153, 0.8),rgba(255, 221, 153, 0.8)),url("img/portfolio-bg.jpg");
     background-size: cover;
     color: #393939;
     text-align: center;
@@ -352,7 +352,7 @@ svg.ui-ux circle{
 /*Testimonial section*/
 /* =================== */
 .testimonial{
-    background: linear-gradient(rgba(215, 70, 128, 0.89),rgba(215, 70, 128, 0.89)), url("/resources/css/img/testimonial-bg.jpg");
+    background: linear-gradient(rgba(215, 70, 128, 0.89),rgba(215, 70, 128, 0.89)), url("img/testimonial-bg.jpg");
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
@@ -396,6 +396,48 @@ svg.ui-ux circle{
 }
 .client-review .role{
     color: #ffdd99;
+}
+/* =================== */
+/* CONTACT SECTION */
+/* =================== */
+.contact-section{
+    background: linear-gradient(rgba(60, 84, 154, 0.842),rgba(60, 84, 154, 0.842)),url("img/contact-bg.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.contact-section h2::after{
+    background-color: #273a71;
+}
+.contact-section .little-des{
+    color: #fff;
+}
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea{
+    background: #273a71;
+    border: 0.1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem ;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+.contact-section textarea{
+    height: 20rem;
+}
+.contact-section form ::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+.btn-submit{
+    border: 0;
+    background: #30bae7;
+    border-bottom: 0.3rem solid #299ec5;
 }
 
 
