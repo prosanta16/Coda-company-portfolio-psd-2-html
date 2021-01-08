@@ -22,7 +22,7 @@ ul li{
 h1{
     font-size: 4.2rem;
     color: #fff;
-
+    display: inline-block;
 }
 .clearfix::after{
     content: "";
