@@ -130,6 +130,10 @@ header{
     margin-top: 3.5rem;
     float: left;
 }
+.hero-text-box{
+    width: 114rem;
+    
+}
 /* main navigation */
 .main-nav {
     float: right;
